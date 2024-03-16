@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.container h2 {
+  margin-top: 50px;
+}
+.container ul {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 20vw);
+  justify-content: center;
+  gap: 30px;
+}
+.container ul li {
+  list-style-type: none;
+}
+.container ul li img {
+  height: 40vh;
+}
